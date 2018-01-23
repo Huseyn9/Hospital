@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf11eba44c2c4c29be4ee3bf11c7439d" Name="Diagram1">
+        <EntityTypeShape EntityType="HospitalModel.Card_Type" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Existing_Account" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Material_Status" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Occupation" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Patient" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Patient_Category" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Patient_Family" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Religion" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.State_of_Origin" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Title" Width="1.5" PointX="3" PointY="22.25" IsExpanded="true" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Card_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Existing_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Material_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Occupation" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Patient_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Patient_Family" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Religion" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_State_of_Origin" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Patient_Family_State_of_Origin" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
